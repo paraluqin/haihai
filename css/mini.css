@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+body
+{
+	width: 95%;
+	height: 90vh;
+}
+img
+{
+	width: 300px;
+}
+
+.head
+{
+	position: absolute;
+	height: 0px;
+	width: 100%;
+	z-index: 300;
+}
+.head-nav
+{
+	width: 90%;
+	font-size: 18px;
+}
+.nav-left
+{
+	float: left;
+	pointer-events: none;
+}
+.mian>font
+{
+	position: absolute;
+	bottom: 50px;
+	left: 3%;
+	z-index: 200;
+}
+.nav-cenet
+{
+	pointer-events: none;
+	margin: 10px 0px 0px 50%;
+	width: 250px;
+	text-align: left;
+}
+.cenet-dv1
+{
+	position: absolute;
+	top: 230px;
+	left: 50%;
+	z-index: 200;
+}
+.cenet-dvv
+{
+	position: absolute;
+	top: 460px;
+	left: 50%;
+	z-index: 200;
+}
+.nav-cenet font
+{
+	margin-left: 60px;
+	margin-top: 100px;
+}
+.nav-right
+{
+	position: absolute;
+	right: 100px;
+	top: 20px;
+}
+.right-dv
+{
+	position: absolute;
+	top: 250px;
+	width: 200px;
+	right: -80px;
+}
+.main
+{
+	position: relative;
+}
+.main-img
+{
+	position: relative;
+}
+.main-img>div:nth-child(1)
+{
+	position: absolute;
+	top: 100px;
+	transform: rotate(0deg);
+}
+.main-img>div:nth-child(2)
+{
+	position: absolute;
+	top: 390px;
+	transform: rotate(45deg);
+}
+.main-img>div:nth-child(3)
+{
+	position: absolute;
+	left: 520px;
+	top: 40px;
+	transform: rotate(-40deg);
+}
+.main-img>div:nth-child(4)
+{
+	position: absolute;
+	left: 520px;
+	top: 230px;
+	transform: rotate(35deg);
+}
+.main-img>div:nth-child(5)
+{
+	position: absolute;
+	left: 520px;
+	top: 460px;
+	transform: rotate(-20deg);
+}
+.main-img>div:nth-child(6)
+{
+	position: absolute;
+	left: 1070px;
+	top: 40px;
+	transform: rotate(-20deg);
+	
+}
+.main-img>div:nth-child(7)
+{
+	background-color: rgb(54, 101, 71);
+	position: absolute;
+	left: 1070px;
+	top: 240px;
+	transform: rotate(30deg);
+}
+.main-img>div:nth-child(8)
+{
+	position: absolute;
+	left: 1070px;
+	top: 450px;
+	transform: rotate(-18deg);
+}
+
+.main-img>div{
+	transition: all 0.5s;
+}
+
+.main-img>div:hover
+{
+	transform: rotate(0deg);
+	transform: scale(1.3);
+	z-index: 12;
+}
+.butterfly{
+	width: 70px;
+	height: 50px;
+}
